@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  font-family: sans-serif;
+  color: #333;
+}
+
+.demo-window {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  line-height: 0; /* Prevents tiny gap at bottom of canvas */
+}
+
+.ripple-canvas {
+  max-width: 100%;
+  height: auto;
+  cursor: crosshair;
+}
