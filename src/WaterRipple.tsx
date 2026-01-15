@@ -1,3 +1,9 @@
+/**
+ * Water ripple effect
+ * * Logic: This function implements the Hugo Elis algorithm as defined here:
+ * https://maciejmatyka.blogspot.com/2018/03/2d-water-algorithm.html
+ */
+
 import React, { useRef, useEffect } from 'react';
 
 interface WaterRippleProps {
